@@ -61,15 +61,7 @@ const Completeregister = () => {
                       type="email"
                       placeholder="Enter email"
                     />
-                    <img
-                      style={{
-                        position: "absolute",
-                        right: "9%",
-                        top: "32.8%",
-                      }}
-                      src={success}
-                      alt="ddd"
-                    />
+                    
                     <p style={{ fontSize: "13px" }}>available</p>
                   </Form.Group>
                   <Form.Group className="mb-1" controlId="formBasicPassword">
@@ -84,15 +76,7 @@ const Completeregister = () => {
                       type="text"
                       placeholder="Username"
                     />
-                    <img
-                      style={{
-                        position: "absolute",
-                        right: "9%",
-                        top: "48%",
-                      }}
-                      src={failed}
-                      alt="ssss"
-                    />
+                    
                     <p style={{ fontSize: "13px" }}>
                       That username is taken. Try another
                     </p>{" "}
@@ -109,15 +93,7 @@ const Completeregister = () => {
                       type="password"
                       placeholder="Password"
                     />
-                    <img
-                      style={{
-                        position: "absolute",
-                        right: "9%",
-                        top: "63.4%",
-                      }}
-                      src={success}
-                      alt="ddddd"
-                    />
+                    
                     <p style={{ fontSize: "13px" }}>available</p>
                   </Form.Group>
                   <Form.Group className="mb-1" controlId="formBasicPassword">
@@ -132,15 +108,7 @@ const Completeregister = () => {
                       type="password"
                       placeholder="Password"
                     />
-                    <img
-                      style={{
-                        position: "absolute",
-                        right: "9%",
-                        top: "78.8%",
-                      }}
-                      src={failed}
-                      alt="ddddd"
-                    />
+                    
                     <p style={{ fontSize: "13px" }}>
                       Please choose a stronger password.Try a mix of letters
                       numbers and symbols

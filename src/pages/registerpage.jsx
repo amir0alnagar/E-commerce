@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import loginimg from "../imgs/loginimg.jpg";
+import { Link } from 'react-router-dom';
 
 const Register = () => {
     return (
@@ -100,7 +101,12 @@ const Register = () => {
                           borderRadius: "35px",
                         }}
                       >
-                        Register
+                        <Link
+                          to={"/Completeregister"}
+                          style={{ textDecoration: "none", color: "white" }}
+                        >
+                          Register
+                        </Link>
                       </Button>
                     </div>
                     <p className="text-center mt-4">
